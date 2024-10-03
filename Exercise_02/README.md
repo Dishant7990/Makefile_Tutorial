@@ -19,7 +19,7 @@ The project consists of the following files:
 
 ## Compilation
 
-You can compile the program using the provided `Makefile`. 
+You can compile the program using the provided `Makefile`.
 Running the `make` command will compile all source files and generate the final executable `hello`.
 
 ### Makefile Usage
@@ -66,7 +66,7 @@ Consider the following rule in the Makefile:
 ```makefile
 %.o: %.c
     $(CC) $(CFLAGS) -c $< -o $@
-
+```
 
 ## Why Use Automatic Variables?
 
