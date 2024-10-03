@@ -78,15 +78,15 @@ By understanding and using variables like $< and $@, you can:
 - Reduce the risk of errors when compiling projects.
 
 ``` bash
-dishant@LAPTOP-U0LEAJTC:~/Makefile_Tutorial/Exercise_02$ make
+:~/Makefile_Tutorial/Exercise_02$ make
 gcc -Wall -g -c main.c -o main.o
 gcc -Wall -g -c hello.c -o hello.o
 gcc -Wall -g -c factorial.c -o factorial.o
 gcc -Wall -g -o hello main.o hello.o factorial.o
 
-dishant@LAPTOP-U0LEAJTC:~/Makefile_Tutorial/Exercise_02$ ./hello
+:~/Makefile_Tutorial/Exercise_02$ ./hello
 Hello World!
 The factorial of 5 is 120
 
-dishant@LAPTOP-U0LEAJTC:~/Makefile_Tutorial/Exercise_02$ make clean
+:~/Makefile_Tutorial/Exercise_02$ make clean
 rm -f main.o hello.o factorial.o hello
