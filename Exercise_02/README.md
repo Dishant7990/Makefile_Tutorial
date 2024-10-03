@@ -28,8 +28,8 @@ Running the `make` command will compile all source files and generate the final 
 - `make clean`: Removes object files and the executable, cleaning the build directory.
 
 To compile the project, simply run:
-```bash
-make
+
+- make
 
 # Understanding Automatic Variables in Makefiles
 
